@@ -1,0 +1,48 @@
+/** section8 **/
+
+.section8 {
+	background: #65aa19;
+	padding-top: 24px;
+}
+
+.section8-wrap {
+	width: 100%;
+	max-width: 730px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.section8-text-wrap {
+	width: 100%;
+	max-width: 65%;
+}
+
+.section8-title h2 {
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 42px;
+	letter-spacing: -0.76px;
+}
+
+.section8-text p {
+	color: #fff;
+	font-family: Barlow;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 40px;
+	/* Text style for "Financial" */
+	letter-spacing: -0.38px;
+	/* Text style for "chat, cons" */
+	/*color: #0033cc; */
+	letter-spacing: -0.38px;
+}
+
+.section8-img {
+	width: 100%;
+	max-width: 25%;
+}
+

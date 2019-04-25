@@ -1,0 +1,44 @@
+/** page-aboutus-section3 **/
+
+.aboutus4 {
+	background: #d4e5e5;
+}
+
+.about4-text-wrap {
+	width: 100%;
+}
+
+.about4-flexbox {
+	display: flex;
+	width: 100%;
+}
+
+.about4-title h3 {
+	color: #333;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 42px;
+	letter-spacing: -0.76px;
+}
+
+.about4-text p {
+	color: #333;
+	font-family: Barlow;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: -0.34px;
+	line-height: 35px;
+	/* Text style for "" 
+	letter-spacing: -0.34px;
+	line-height: 17px; */
+}
+
+.about4-img {
+	width: 100%;
+	margin-right: 40px;
+}
+
+.about4-title {
+	margin-bottom: 40px;
+}

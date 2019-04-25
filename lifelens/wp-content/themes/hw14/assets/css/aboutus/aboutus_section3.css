@@ -1,0 +1,59 @@
+/** page-aboutus-section3 **/
+.aboutus-section3 {
+	max-width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+}
+
+.about3-flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutus-section3 h2 {
+	color: #333;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 42px;
+	letter-spacing: -0.76px;
+	text-align: center;
+}
+
+
+.about3-flex1-title h3,
+.about3-flex1-title2 h3 {
+	color: #333;
+	font-family: "Barlow - Semi Bold";
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.about3-count1 {
+	text-align: center;
+	color: #51b4bd;
+	font-family: "Barlow - Semi Bold";
+	font-size: 77px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: -1.54px;
+	margin-bottom: 30px;
+}
+
+.about3-flex1-text {
+	color: #505050;
+	font-family: Barlow;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.about3-flex1-title2 {
+	margin-bottom: 45px;
+}

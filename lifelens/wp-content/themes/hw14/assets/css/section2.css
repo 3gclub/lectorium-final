@@ -1,0 +1,62 @@
+/** Section2 **/
+
+.section2-wrap {
+	max-width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.section2 {
+	min-height: 205px;
+	color: #cbe4b3;
+	background: #294b09;
+	font-family: Barlow;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 45px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+
+.section2-text-buttom-block {
+	display: flex;
+}
+
+
+.but-wrap2 {
+	display: block;
+	margin-top: 80px;
+	text-align: right;
+}
+
+.button2 {
+	background: #00baf4;
+	color: #fff;
+	font-family: "Barlow - Semi Bold";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	padding: 12px 15px;
+}
+
+.sect2-textblock {
+	display: block;
+	text-align: left;
+	margin-top: 40px;
+}
+
+.sect2-title {
+	color: #fff;
+	letter-spacing: -0.28px;
+}
+
+.sect2-text {
+	color: #76a5a1;
+	letter-spacing: -0.28px;
+}

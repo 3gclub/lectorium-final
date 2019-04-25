@@ -1,0 +1,49 @@
+/** section3 **/
+.section3 {
+	background: #488122;
+	padding-top: 29px;
+    padding-bottom: 33px;
+}
+
+
+.section3-wrap {
+	max-width: 1090px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.section3-block1 {
+	max-width: 60%;
+}
+
+.section3-block2 {
+	padding-left: 50px;
+}
+
+
+
+.section3-block1 h4 {
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 42px;
+	letter-spacing: -0.76px;
+}
+
+
+.section3-block1 p {
+	color: #fff;
+	font-family: Barlow;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: -0.19px;
+}
+
+.section3-block2 {
+	width: 100%;
+	padding-top: 50px;
+}

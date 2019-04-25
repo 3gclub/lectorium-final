@@ -1,0 +1,193 @@
+/** footer **/
+
+/** GENERAL **/
+.footer {
+	background: #f2f2f2;
+	
+}
+
+.footer h5 {
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.footer-wrap {
+	margin-top: auto;
+	margin-bottom: 0;
+	padding-top: 30px;
+	display: flex;
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-menu-wrap {
+	display: flex;
+}
+
+
+/** MENU 1 **/
+
+.footer-menu1 {
+	margin-right: 85px;
+	max-width: 9%;
+}
+
+.footer-menu1, 
+.footer-menu2 li {
+	color: #333;
+	font-weight: 400;
+	font-family: Barlow, sans-serif;
+}
+
+
+
+.footer-menu1 ul {
+	padding: 0;
+}
+
+
+/** MENU2 **/
+/**
+.footer-nav-menu2 ul li {
+	color: #848484;
+	font-weight: 600;
+	letter-spacing: .5;
+}
+**/
+.footer-menu2 ul {
+	padding: 0;
+}
+
+
+.footer-menu2 {
+	max-width: 9%;
+	margin-right: 20px;
+}
+
+
+/** JOIN block **/
+.footer-join-wrap {
+	width: 60%;
+	margin-left: 100px;
+}
+
+.footer-submit-wrap {
+	display: flex;
+	max-width: 100%;
+}
+
+.contact_email {
+	min-width: 100%;
+}
+
+.contact_email input {
+	background: #fff;
+	color: #000;
+	font-weight: 500;
+    font-family: Barlow,sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+    padding: 11px 17px;
+    min-height: 41px;
+}
+
+.sign-button input {
+	background: #00a4e4;
+	color: #fff;
+}
+
+.sign-button input:hover {
+	background:#0083b7;
+}
+
+
+.footer-join-text span {
+	color: #848484;
+
+}
+
+/** SOCIAL **/
+
+.fa-facebook {
+	background: #3b5a99;
+    color: #fff;
+}
+
+
+.footer-social {
+	display: flex;
+	margin-top: 194px;
+}
+
+.facebook {
+	background: #3b5a99;
+	text-align: right;
+	padding-right: 4px;
+}
+
+.footer-social a {
+	margin-right: 18px;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	color: #fff;
+}
+
+
+.vimeo {
+	background: #16bbed;
+	text-align: center;
+}
+
+.linkedin {
+	background: #127bb7;
+	text-align: center;
+}
+
+.tvitter {
+	background: #25a8e0;
+	text-align: center;
+}
+
+/** FOOTER BOTTOM **/
+
+.footer-bottom {
+	background: #e2e2e2;
+	color: #665;
+	letter-spacing: .6;
+	margin-top: 54px;
+	font-size: 14px;
+	font-weight: 600px;
+}
+
+.footer-bottom a {
+	color: #665;
+}
+
+.bottom-wrap {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+.term-info {
+	padding-right: 25px;
+}
+
+
+.separator {
+	background: #665;
+	width: 1px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.copirate {
+	display: flex;
+    align-items: baseline;
+}

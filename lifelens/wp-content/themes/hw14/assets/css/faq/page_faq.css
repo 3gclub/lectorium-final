@@ -1,0 +1,91 @@
+/** page-faq **/
+
+.faq-title {
+	background: #4ca7e0;
+	text-align: center;
+	padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.page-faq {
+	margin-top: 15px;
+}
+
+.faq-title h2 {
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -0.76px;
+}
+
+/** POPUP **/
+.faq-popup-wrap {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.faq-popup-wrap ul {
+	padding-left: 0;
+	border: 1px solid #cbcdcb;
+}
+
+.faq-popup-wrap li.active {
+	border-bottom: 1px solid #cbcdcb;
+}
+
+.faq-popup-wrap li.active .questons-wrapper {
+	border-bottom: none;
+}
+
+.questons-wrapper {
+	color: #00a4e4;
+	font-family: "Barlow - Semi Bold";
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 28.5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMwMDgzYjc7fQ0KPC9zdHlsZT4NCjxyZWN0IHg9IjUuNSIgdHJhbnNmb3JtPSJtYXRyaXgoNi4xMjMyMzRlLTE3IC0xIDEgNi4xMjMyMzRlLTE3IDAgMTQpIiBjbGFzcz0ic3QwIiB3aWR0aD0iMyIgaGVpZ2h0PSIxNCIvPg0KPHJlY3QgeD0iNS41IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAtMS4yMjQ2NDdlLTE2IDEuMjI0NjQ3ZS0xNiAtMSAxNCAxNCkiIGNsYXNzPSJzdDAiIHdpZHRoPSIzIiBoZWlnaHQ9IjE0Ii8+DQo8L3N2Zz4NCg==) no-repeat;
+	background-size: 14px;
+	background-position: calc(100% - 25px) center;
+	border-bottom: 1px solid #cbcdcb;
+}
+
+.questons-wrapper h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.answer-wrapper {
+	color: #333;
+	font-family: Barlow;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: -0.38px;
+	background: #f2f2f2;
+	height: 0;
+	visibility: hidden;
+	position: absolute;
+	padding-top: 9px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+}
+
+.active .answer-wrapper {
+	height: auto;
+	visibility: visible;
+	position: relative;
+}
+
+
+.active .questons-wrapper {
+	background: #f2f2f2 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMxQkEzREQ7fQ0KPC9zdHlsZT4NCjxyZWN0IHg9IjUuNSIgdHJhbnNmb3JtPSJtYXRyaXgoNi4xMjMyMzRlLTE3IC0xIDEgNi4xMjMyMzRlLTE3IDAgMTQpIiBjbGFzcz0ic3QwIiB3aWR0aD0iMyIgaGVpZ2h0PSIxNCIvPg0KPC9zdmc+DQo=) no-repeat;
+	background-size: 14px;
+	background-position: calc(100% - 25px) center;
+}

@@ -1,0 +1,23 @@
+/** HEADER **/
+
+.header {
+  display: flex;
+  text-align: center;
+  max-width: 1190px;
+}
+
+.logo {
+  margin-right: 300px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+
+.nav-menu {
+   margin-top: 25px;
+}
+
+.nav-menu li {
+  display: inline;
+  padding-right: 30px;
+}

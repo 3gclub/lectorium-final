@@ -1,0 +1,68 @@
+/** about Us section1 **/
+
+.aboutus-section1 {
+	max-width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.aboutus-section1 h2 {
+	text-align: center;
+	color: #333;
+	font-family: "Open Sans";
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 42px;
+	letter-spacing: -0.76px;
+}
+
+.about-sect1-textwrap h3 {
+	color: #333;
+	font-family: "Barlow - Semi Bold";
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px	
+}
+
+.about-sect1-textwrap p {
+	color: #333;
+	font-family: Barlow;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: -0.38px;
+}
+
+.aboutus {
+	background: #80808017;
+}
+
+.about-flexbox {
+	display: flex;
+	width: 1100px;
+}
+
+.about-sect1-textwrap {
+	max-width: 50%;
+	margin-right: 60px;
+}
+
+.about-img-wrap {
+	max-width: 50%;
+}
+
+.about-button {
+	padding-left: 300px;
+}
+
+.about-img-text {
+	color: #333;
+	font-family: "Barlow - Semi Bold";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.32px;
+}

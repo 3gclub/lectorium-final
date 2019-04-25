@@ -1,0 +1,74 @@
+/** Section5 carusel **/
+.section5-title h2 {
+  text-align: center;
+  font-size: 38px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  letter-spacing: -.76px;
+  color: #333;
+}
+
+.section5-carousel-title h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #494949;
+  font-family: "Barlow - Semi Bold";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.52px;
+}
+
+.section5-carousel-text {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #333;
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.section5-carousel-img img {
+  margin: 0 auto;
+  width: auto !important;
+}
+
+.section5 .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.section5 .owl-dots {
+  text-align: center;
+}
+
+.section5 .owl-dots .owl-dot span {
+  transition: .5s;
+  border: 1px solid #a4a3a3;
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 100%;
+  margin: 0 6px;
+}
+
+.section5 .owl-dots .owl-dot.active span {
+  background: #a4a3a3;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
